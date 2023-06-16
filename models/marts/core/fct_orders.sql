@@ -10,7 +10,7 @@ final as (
     select
         order_id,
         customer_id,
-        amount
+        coalesce(amount, 0) as amount
 
     from orders
 
