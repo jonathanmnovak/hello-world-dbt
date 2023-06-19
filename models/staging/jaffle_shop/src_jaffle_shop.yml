@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: jaffle_shop
-  - database: nomadic-drummer-389818
-  - schema: raw_jaffle_shop
-  - tables:
+    database: nomadic-drummer-389818
+    schema: raw_jaffle_shop
+    tables:
       - name: customers
       - name: orders
