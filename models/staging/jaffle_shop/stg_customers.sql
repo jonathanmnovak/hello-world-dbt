@@ -3,4 +3,4 @@ select
    first_name,
    last_name
 
-from nomadic-drummer-389818.raw_jaffle_shop.customers
+from {{source('jaffle_shop', 'customers')}}
