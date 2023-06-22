@@ -1,3 +1,5 @@
-{% customer_id %}
+{% docs customer_info %}
 
-A unique identifier for customers
+Customer ID: A unique identifier for customers
+
+{% enddocs %}
